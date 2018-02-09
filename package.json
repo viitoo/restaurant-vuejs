@@ -5,8 +5,6 @@
   "author": "Victor Cedeno <vicedeno@gmail.com>",
   "license": "MIT",
   "engines":{
-    "npm": "3.10.10",
-    "nodejs": "6.11.5",
     "node": "6.11.5"
 
   },
