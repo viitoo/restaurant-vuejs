@@ -4,6 +4,10 @@
   "version": "1.0.0",
   "author": "Victor Cedeno <vicedeno@gmail.com>",
   "license": "MIT",
+  "engines":{
+    "npm": "3.10.10",
+    "nodejs": "v6.11.5"
+  },
   "private": true,
   "scripts": {
     "start": "node server.js",
