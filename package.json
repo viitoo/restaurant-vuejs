@@ -6,7 +6,9 @@
   "license": "MIT",
   "engines":{
     "npm": "3.10.10",
-    "nodejs": "6.11.5"
+    "nodejs": "6.11.5",
+    "node": "6.11.5"
+
   },
   "private": true,
   "scripts": {
