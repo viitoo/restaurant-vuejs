@@ -8,7 +8,6 @@ new Vue({
   el: '#app',
   data: {
     fotos: null,
-
     texto: "hola mundo desde vuejs",
     buscadorFoto: '',
   },

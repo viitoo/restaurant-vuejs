@@ -1,22 +1,15 @@
 <template>
   <div id="app">
 
-      <h1>Axios</h1>
-      <h1>listado por ajax</h1>
+      <h1>Listado</h1>
       <input type="search" v-model="buscadorFoto" placeholder="Encuentra tu empresa">
-      <ol v-if="fotos">
-      <li v-for="(foto, index) in buscarFoto">
-        {{foto.id }} - {{foto.title}}
-      </li>
-      </ol>
+      <ul v-if="fotos">
+        <li v-for="(foto, index) in buscarFoto">
+          {{foto.id }} - {{foto.title}}
+        </li>
+      </ul>
       <span v-else>cargando los datos espere un seg</span>
-
       <hr>
-  <h3>Informacion del objeto reactivo</h3>
-    <pre>
-    {{ $data }}
-  </pre>
-
   </div>
 </template>
 
@@ -55,7 +48,7 @@ export default {
   font-family: 'Avenir', Helvetica, Arial, sans-serif;
   -webkit-font-smoothing: antialiased;
   -moz-osx-font-smoothing: grayscale;
-  text-align: center;
+  text-align: left ;
   color: #2c3e50;
   margin-top: 60px;
 }
